@@ -35,6 +35,6 @@ app.get("/", async (req, res) => {
   res.send(data);
 });
 
-app.listen(8080, () =>
+app.listen(80, () =>
   console.log("¡Aplicación de ejemplo escuchando en el puerto 8080!")
 );
